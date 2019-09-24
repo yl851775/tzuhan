@@ -1,0 +1,77 @@
+
+body {
+  color: black;
+  background-color: #F1F297;
+  font-family: 'Gayathri', sans-serif;
+}
+
+
+header {
+  background-color: yellow;
+  height: 80px;
+  width: 500px;
+  padding: 20px;
+}
+
+nav  {
+    background-color: #59A73E;
+  }
+  a:hover {
+    color: #F86537;
+         }
+  a:visited {
+    color: purple;
+               }
+
+
+main {
+      background-color: #F6D68B;
+      border: 10px dashed #FBC956;
+      padding: 20px 20px 10px 20px;
+      margin: auto;
+      width: 70%;
+      height: 650px;
+      text-align: left;
+      letter-spacing: .25px;
+      line-height: 30px;
+    }
+
+    #welcome {
+      background-color: pink;
+    }
+
+    .information {
+      background-color: #ED82F4;
+    }
+
+    .what {
+      background-color: #DEC2F5;
+      padding: 10px 10px 10px 10px;
+    }
+
+    .why {
+      background-color: #B4ECEA;
+      padding: 20px 20px 10px 20px;
+      margin: 55px 20px 10px 0px;
+
+    }
+
+    .image1 {
+      height: 300px;
+      width: 400px;
+      margin: 10px 20px 10px 100px;
+    }
+    .pianist{
+      height: 300px;
+      width: 350px;
+    }
+    .intern1{
+      height: 300px;
+      width: 400px;
+      margin: 5px 20px 10px 0px;
+      }
+      .image2{
+        height: 300px;
+        width: 550px;
+        margin: 5px 20px 10px 0px;
+        }
