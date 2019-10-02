@@ -1,0 +1,99 @@
+/* 全部都是border, padding, and margin 可以先忽略其他的*/
+body{
+  background-image: url(paper.png);
+  border-top: 20px solid #72A1A7;
+  border-bottom: 20px solid #72A1A7;
+}
+
+div {
+  width: 500px;
+  margin: auto;
+}
+
+#written{
+  margin: auto;
+  text-align: center;
+  font-family: Arial;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+  width: 265px;
+}
+
+.Joel{
+  text-align: center;
+  font-family: Arial;
+  margin-top: 0px;
+
+}
+
+.starring{
+  margin:auto;
+  text-align: center;
+  color: #72A1A7;
+  font-family: Arial;
+  border-bottom: 1px solid #72A1A7;
+  width: 90px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.oscar{
+  text-align: center;
+  color: #72A1A7;
+  font-family: Arial;
+  padding-top: 5px;
+  margin-top: 10px;
+  line-height: 0px;
+}
+
+.inside{
+  text-align: center;
+  font-size: 60px;
+  font-family: Arial;
+  line-height: 50px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
+
+.guitar{
+  margin-left: 40px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+
+
+}
+.coming{
+  text-align: center;
+  font-family: Arial;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  line-height: 0px;
+}
+
+.www{
+  text-align: center;
+  color: #72A1A7;
+  font-style: bold;
+  font-family: Arial;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 20px;
+  line-height: 0px;
+}
+
+
+/*
+  如果只打border會出現方格子，一格一格的圈起來區隔
+  border-buttom: 1px solid black 會讓下面有一條黑線
+  還要加入width去改線的長度
+  padding-top/right/buttom/left 去增加或減少字之間的空間
+  */
+
+/* 如果padding沒有用的話,就試試看margin-top/right//bottom/left*/
+
+/*background-image: url(paper.png)*/
